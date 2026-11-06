@@ -38,7 +38,7 @@
       <?php if ($hero_img): ?>
         <img src="<?php echo esc_url($hero_img); ?>" alt="Hand-knotted rug by Pyarelal">
       <?php else: ?>
-        <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/hero-rug.svg'); ?>" alt="Hand-knotted rug by Pyarelal">
+        <img src="https://plkart.com/wp-content/uploads/2026/11/pyarelal-red-medallion-wool-rug.webp" alt="Hand-knotted red medallion wool rug by Pyarelal, Varanasi">
       <?php endif; ?>
       <span class="tag-float tag-1"><span class="dot"></span>Pure wool &amp; silk</span>
       <span class="tag-float tag-2"><span class="dot"></span>Natural dyes</span>
@@ -109,7 +109,7 @@
 <!-- STORY -->
 <section class="block" id="story" style="background:var(--surface);border-block:1px solid var(--line)">
   <div class="wrap split">
-    <div class="art-panel"><?php echo $rug_svg; ?></div>
+    <div class="art-panel"><img src="https://plkart.com/wp-content/uploads/2026/11/pyarelal-handwoven-rugs-stack.webp" alt="A stack of handwoven Pyarelal rugs and dhurries from Varanasi" loading="lazy"></div>
     <div>
       <p class="eyebrow">Our story</p>
       <h2>An art form woven through generations.</h2>
