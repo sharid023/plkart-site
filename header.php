@@ -35,6 +35,7 @@
       <a href="<?php echo esc_url(home_url('/product-category/dhurries/')); ?>">Dhurries</a>
       <a href="<?php echo esc_url(home_url('/product-category/mats/')); ?>">Mats</a>
       <a href="<?php echo esc_url(home_url('/our-story/')); ?>">Our Story</a>
+      <a href="<?php echo esc_url(home_url('/awards/')); ?>">Awards</a>
       <a href="<?php echo esc_url(home_url('/contact/')); ?>">Contact</a>
     </nav>
     <div class="menu">
@@ -43,6 +44,7 @@
       <a href="<?php echo esc_url(home_url('/product-category/dhurries/')); ?>">Dhurries</a>
       <a href="<?php echo esc_url(home_url('/product-category/mats/')); ?>">Mats</a>
       <a href="<?php echo esc_url(home_url('/our-story/')); ?>">Our Story</a>
+      <a href="<?php echo esc_url(home_url('/awards/')); ?>">Awards</a>
       <a href="<?php echo esc_url(home_url('/contact/')); ?>">Contact</a>
     </div>
 

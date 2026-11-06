@@ -22,6 +22,7 @@
         <h4>Company</h4>
         <a href="<?php echo esc_url(home_url('/our-story/')); ?>">Our Story</a>
         <a href="<?php echo esc_url(home_url('/the-craft/')); ?>">The Craft</a>
+        <a href="<?php echo esc_url(home_url('/awards/')); ?>">Awards &amp; Recognition</a>
         <a href="<?php echo esc_url(home_url('/contact/')); ?>">Contact</a>
         <a href="<?php echo esc_url(pyarelal_wa_link()); ?>" target="_blank" rel="noopener">WhatsApp</a>
       </div>
