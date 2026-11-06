@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 56" width="260" height="56" role="img" aria-label="Pyarelal Handloom">
+  <g>
+    <circle cx="28" cy="28" r="24" fill="none" stroke="#b25736" stroke-width="2.2"/>
+    <path d="M28 8 L46 28 L28 48 L10 28 Z" fill="none" stroke="#5f7360" stroke-width="2.2"/>
+    <path d="M28 16 L38 28 L28 40 L18 28 Z" fill="#b25736"/>
+    <circle cx="28" cy="28" r="3.4" fill="#a9843f"/>
+  </g>
+  <text x="66" y="30" font-family="Fraunces, Georgia, serif" font-size="21" font-weight="600" letter-spacing="3.4" fill="#2a2118">PYARELAL</text>
+  <text x="67" y="45" font-family="Hanken Grotesk, Arial, sans-serif" font-size="8" font-weight="600" letter-spacing="4" fill="#786b57">HANDLOOM · VARANASI</text>
+</svg>
