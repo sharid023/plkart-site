@@ -37,7 +37,9 @@
     <div class="hero-art">
       <?php if ($hero_img): ?>
         <img src="<?php echo esc_url($hero_img); ?>" alt="Hand-knotted rug by Pyarelal">
-      <?php else: echo $rug_svg; endif; ?>
+      <?php else: ?>
+        <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/hero-rug.svg'); ?>" alt="Hand-knotted rug by Pyarelal">
+      <?php endif; ?>
       <span class="tag-float tag-1"><span class="dot"></span>Pure wool &amp; silk</span>
       <span class="tag-float tag-2"><span class="dot"></span>Natural dyes</span>
     </div>
