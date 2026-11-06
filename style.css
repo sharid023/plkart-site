@@ -103,8 +103,8 @@ img,svg{display:block;max-width:100%}
 @media(min-width:960px){
   .nav .menu{display:flex}
   .navtoggle{display:none}
-  .navlinks{position:static;width:auto;transform:none;background:transparent;border:0;flex-direction:row;padding:0;overflow:visible}
-  .navlinks a{border:0;padding:0}
+  /* On desktop the inline .menu is the nav; the slide-in drawer stays hidden. */
+  .navlinks{display:none}
 }
 
 /* ---------------- hero ---------------- */
