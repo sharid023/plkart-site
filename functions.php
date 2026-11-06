@@ -47,7 +47,7 @@ function pyarelal_assets() {
         'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@500;600&display=swap',
         array(), null
     );
-    wp_enqueue_style('pyarelal-style', get_stylesheet_uri(), array(), '1.0.1');
+    wp_enqueue_style('pyarelal-style', get_stylesheet_uri(), array(), '1.0.2');
     wp_enqueue_script('pyarelal-app', get_template_directory_uri() . '/assets/app.js', array(), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'pyarelal_assets');
