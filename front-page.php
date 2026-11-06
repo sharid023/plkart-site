@@ -132,6 +132,24 @@
   </div>
 </section>
 
+<!-- RECOGNITION -->
+<section class="block" style="background:var(--surface);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head center"><p class="eyebrow">Recognition</p><h2>Award-winning, Government-recognised handloom.</h2><p>Our craft has been honoured at the highest levels — the proof is in every knot.</p></div>
+    <div class="specs">
+      <div class="spec"><b>National Award</b><strong>Ministry of Textiles &middot; 2019</strong><small>Government of India — for our Panja Dhurrie.</small></div>
+      <div class="spec"><b>G.I. Certified</b><strong>Geographical Indication</strong><small>Genuine regional craft, never a machine copy.</small></div>
+      <div class="spec"><b>State Award</b><strong>U.P. Handloom &middot; 2012–13</strong><small>Janeshwar Mishra Puraskar; also honoured by the CM &amp; Union Minister.</small></div>
+    </div>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px">
+      <a href="<?php echo esc_url(home_url('/awards/')); ?>"><img src="https://plkart.com/wp-content/uploads/2026/11/pyarelal-national-award-textiles-2019.jpg" alt="National Award, Ministry of Textiles 2019" loading="lazy" style="height:132px;width:auto;border-radius:10px;border:1px solid var(--line);display:block"></a>
+      <a href="<?php echo esc_url(home_url('/awards/')); ?>"><img src="https://plkart.com/wp-content/uploads/2026/11/pyarelal-handloom-award-cm-uttar-pradesh.jpg" alt="Honoured by the Chief Minister of Uttar Pradesh" loading="lazy" style="height:132px;width:auto;border-radius:10px;border:1px solid var(--line);display:block"></a>
+      <a href="<?php echo esc_url(home_url('/awards/')); ?>"><img src="https://plkart.com/wp-content/uploads/2026/11/pyarelal-gi-geographical-indication-exhibition.jpg" alt="G.I. Geographical Indication certified craft" loading="lazy" style="height:132px;width:auto;border-radius:10px;border:1px solid var(--line);display:block"></a>
+    </div>
+    <div class="center" style="margin-top:26px"><a class="btn btn-dark btn-lg" href="<?php echo esc_url(home_url('/awards/')); ?>">See all our awards &rarr;</a></div>
+  </div>
+</section>
+
 <!-- WHY PYARELAL -->
 <section class="block" style="padding-top:0">
   <div class="wrap">
