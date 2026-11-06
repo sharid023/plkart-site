@@ -37,3 +37,16 @@ add_filter('woocommerce_add_to_cart_fragments', function ($fragments) {
     $fragments['#cartCount'] = ob_get_clean();
     return $fragments;
 });
+
+/* ---- when Free shipping is available, hide the other rates ----
+   Orders ≥ ₹500 (free-shipping minimum) then show only "Free shipping";
+   orders below ₹500 still show the ₹99 flat rate. */
+add_filter('woocommerce_package_rates', function ($rates) {
+    $free = array();
+    foreach ($rates as $rate_id => $rate) {
+        if ('free_shipping' === $rate->method_id) {
+            $free[$rate_id] = $rate;
+        }
+    }
+    return !empty($free) ? $free : $rates;
+}, 100);
